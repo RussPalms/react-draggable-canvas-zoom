@@ -1,0 +1,25 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+body {
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  --size: 8px;
+  width: var(--size);
+  height: var(--size);
+}
+
+::-webkit-scrollbar-track     {
+  background:#999;
+}
+::-webkit-scrollbar-thumb{
+  background:#ccc;
+  border: 1px solid #aaa;
+}
+
+::-webkit-scrollbar-corner {
+    background: #999;
+}
